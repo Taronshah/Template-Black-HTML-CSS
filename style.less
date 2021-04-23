@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    color: #fff;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #222222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+
+    img {
+        width: 100%;
+        background-size: cover;
+        vertical-align: middle;
+    }
+
+    .fa {
+        display: inline-block;
+        font-size: 36px;
+        padding-top: 7px;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 13px;
+        padding-bottom: 7px;
+    }
+
+    > a:first-of-type {
+        width: 100%;
+        background-color: black;
+    }
+
+    > a:first-of-type:hover {
+        background-color: rgb(204,204,204);
+        color: black;
+    }
+
+    .blackItem:hover {
+        width: 100%;
+        background-color: black;
+    }
+}
+
+.navbar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    a {
+        width: 100%;
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    a:hover {
+        background-color: #CCCCCC;
+        color: black;
+    }
+}
+
+main {
+    margin-left: 127px;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+        font-size: 64px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.about {
+    color: #757575;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: justify;
+
+    hr {
+        width: 200px;
+        opacity: 0.60;
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 15px;
+    }
+
+    h2, h3 {
+        color: white;
+    }
+
+    h3 {
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+ 
+    .w3-wide {
+        letter-spacing: 4px;
+    }
+
+    .w3-white {
+        color: #000;
+        background-color: #fff;
+    }
+
+    .w3-dark-grey {
+        color: #fff;
+        background-color: #616161;
+    }
+
+    .white-Row {
+        color: black;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 14px;
+    
+        span {
+            font-size: 20px;
+        }
+    
+        div {
+            padding: 20px 0;
+            text-align: center;
+        }
+    
+    }
+
+    .button-1 {
+        display: inline-block;
+        cursor: pointer;
+        color: black;
+        background-color: #f1f1f1;
+        padding: 12px 24px;
+        border: none;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        white-space: nowrap;
+        margin: 16px 0;
+        font-size: 15px;
+    }
+
+    .button-1:hover {
+        background-color:#CCCCCC;
+    }
+
+    img {
+        width: 80px;
+        border-radius: 50%;
+        border-style: none;
+        vertical-align: middle;
+        float: left;
+        margin-right: 16px;
+    }
+
+    .w3-margin-right {
+        margin-right: 16px;
+        font-size: 18px;
+        color: #757575;
+        text-align: justify;
+    }
+
+
+}
+
+.myPrice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    color: black;
+    text-align: center;
+
+    .my-half {
+        background-color: white;
+        opacity: 65%;
+
+        h2 {
+            color: black;
+        }
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+
+        li {
+            padding: 8px 155px;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+
+    .dark-Gray {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color: #fff;
+        background-color: #616161;
+        font-size: 24px;
+    }
+
+    .light-grey {
+        border-bottom: none;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: #f1f1f1;
+        font-size: 20px;
+    }
+
+    .button-2 {
+        color: #000;
+        background-color: #fff;
+        padding: 12px 24px;
+        border: none;
+        display: inline-block;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        border-radius: 4px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .button-2:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .my-half:hover {
+        opacity: 100%;
+    }
+}
+
+.portfolio {
+    padding: 64px 0;
+
+    section {
+        margin: 0 -16px;
+        padding: 0 8px;
+        display: flex;
+
+        div {
+            width: 100%;
+            margin: 0;
+            padding: 6px;
+        }
+      
+    }
+
+    h2 {
+        color: #f1f1f1;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 30px;
+    }
+
+    hr {
+        width: 200px;
+        opacity: 0.60;
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+    }
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.contact {
+    padding: 64px 0;
+    color: #757575;
+
+    div {
+        margin: 16px 0;
+        color: #757575;
+    }
+
+    .fa {
+        width: 1.28571429em;
+        text-align: center;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        color: white;
+        font-size: 36px;
+        margin-right: 16px;
+    }
+
+    h2 {
+        color: #f1f1f1;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 30px;
+    }
+
+    hr {
+        width: 200px;
+        opacity: 0.60;
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+    }
+
+    form > p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 15px;
+    }
+
+    .w3-padding-16 {
+        padding-top: 16px!important;
+        padding-bottom: 16px!important;
+    }
+
+    .w3-input {
+        padding: 8px;
+        display: block;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+
+    button {
+        color: black;
+        background-color: #f1f1f1;
+        padding: 12px 24px;
+        border: none;
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .button-3:hover {
+        background-color: gray;
+    }
+
+    .fa-paper-plane {
+        color: black;
+        font-size: 17px;
+    }
+}
+
+footer {
+    color: #757575;
+    padding: 64px 0;
+
+    .fa {
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .fa:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    .medium {
+        font-size: 14px;
+        a {
+            color: #757575;
+        }
+    }
+
+    a:hover {
+        color: lightgreen;
+    }
+
+    .Taron {
+        color: lightgreen;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .portfolio > section {
+        flex-wrap: wrap;
+    }
+
+    .navbar-1 {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 768px) {
+    .navbar-2 {
+        display: none;
+    }  
+}
+
